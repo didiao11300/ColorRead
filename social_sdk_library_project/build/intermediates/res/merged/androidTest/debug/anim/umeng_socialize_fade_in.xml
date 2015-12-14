@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator" >
+
+    <alpha
+        android:duration="300"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+</set><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/src/main/res/anim/umeng_socialize_fade_in.xml --><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/build/intermediates/bundles/debug/res/anim/umeng_socialize_fade_in.xml -->

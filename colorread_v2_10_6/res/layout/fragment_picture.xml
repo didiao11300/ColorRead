@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4040"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_title_select"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="美图"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <include layout="@layout/top_picture" />
+
+        <TextView
+            android:id="@+id/tv_cursor"
+            android:layout_width="80dp"
+            android:layout_height="5dp"
+            android:background="#FF4040" />
+    </LinearLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pic_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    <ImageView
+        android:id="@+id/upload"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="centerInside"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/upload_pic"
+        />
+</RelativeLayout>
+
+</LinearLayout>

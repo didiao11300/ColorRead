@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/upload_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入图片标题" />
+
+    <EditText
+        android:id="@+id/upload_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入图片介绍" />
+
+    <RadioGroup
+        android:id="@+id/upload_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <RadioButton 
+            android:id="@+id/dialog_upload_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="精选"
+            />
+        <RadioButton 
+            android:id="@+id/dialog_upload_beautiful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="风景"
+            />
+        <RadioButton 
+            android:id="@+id/dialog_upload_cartoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卡通"
+            />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/upload_file"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/add_pic" />
+
+</LinearLayout>

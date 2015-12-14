@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen_snapshot_imageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#00000000"
+    android:contentDescription="@string/umeng_socialize_img_des"
+    >
+
+</ImageView><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/src/main/res/layout/shake_umeng_socialize_scrshot_snapshot.xml --><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/build/intermediates/bundles/debug/res/layout/shake_umeng_socialize_scrshot_snapshot.xml -->

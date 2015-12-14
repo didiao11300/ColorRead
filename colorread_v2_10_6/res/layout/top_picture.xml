@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+    
+	<TextView 
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:id="@+id/tv_guid1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:text="精彩美图"
+	    android:textSize="18dp"/>
+	<TextView 
+	    android:layout_weight="1"
+	     android:gravity="center"
+	    android:id="@+id/tv_guid2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:text="风景河山"
+	    android:textSize="18dp"/>
+	<TextView 
+	    android:layout_weight="1"
+	     android:gravity="center"
+	    android:id="@+id/tv_guid5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:text="卡通动漫"
+	    android:textSize="18dp"/>
+	
+</LinearLayout>

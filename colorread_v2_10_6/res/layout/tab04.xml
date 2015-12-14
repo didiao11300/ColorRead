@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF4040" >
+
+    <TextView
+        android:id="@+id/textView_bbs_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:text="社区"
+        android:textSize="16sp" />
+<WebView 
+    android:id="@+id/bbs"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/textView_bbs_title"
+    />
+</RelativeLayout>

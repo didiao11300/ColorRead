@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/umeng_socialize_follow_off" android:state_checked="false"/>
+    <item android:drawable="@drawable/umeng_socialize_follow_on" android:state_checked="true"/>
+
+</selector><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/src/main/res/drawable/umeng_socialize_follow_check.xml --><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/build/intermediates/bundles/debug/res/drawable/umeng_socialize_follow_check.xml -->

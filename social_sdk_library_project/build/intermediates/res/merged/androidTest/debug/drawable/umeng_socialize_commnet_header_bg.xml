@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@android:drawable/list_selector_background" />
+    <item android:state_pressed="true" android:drawable="@android:drawable/list_selector_background" />
+    <item android:state_selected="true" android:drawable="@android:drawable/list_selector_background" />
+    <item android:drawable="@android:color/black" />
+</selector>      <!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/src/main/res/drawable/umeng_socialize_commnet_header_bg.xml --><!-- From: file:/D:/studioSpace/colorread_v2_10_6/social_sdk_library_project/build/intermediates/bundles/debug/res/drawable/umeng_socialize_commnet_header_bg.xml -->
